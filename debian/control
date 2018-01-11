@@ -1,0 +1,12 @@
+Source: sample-package
+Section: misc
+Priority: extra
+Maintainer: Ritul Jasuja <ritul.jasuja@intel.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: sample-package
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends} 
+Description: The sample_package package
